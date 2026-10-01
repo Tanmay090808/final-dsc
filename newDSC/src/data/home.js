@@ -9,6 +9,6 @@ export const heroLines = [
 export const activities = [
   { title: "Workshops", description: "Hands-on coding sessions on modern web and app development technologies." },
   { title: "Hackathons", description: "Collaborate and build innovative solutions in a competitive environment." },
-  { title: "Events", description: "Tech talks, guest speakers, and networking opportunities." },
-  ...Array.from({ length: 5 }, () => ({ title: "Community", description: "Over 200+ active members learning and growing together." })),
+  { title: "Tech Talks", description: "Hear from guest speakers about emerging technologies and industry insights." },
+  { title: "Community Talks", description: "Share ideas, experiences, and knowledge with fellow community members." },
 ];

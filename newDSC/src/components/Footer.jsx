@@ -15,7 +15,7 @@ export default function Footer({ logo }) {
           {navigationItems.map(({ label, to }) => <Link key={label} className="footer-link" to={to}>{label}</Link>)}
         </nav>
         <div className="flex gap-2">
-          <Link className="icon-button" to="/contact" aria-label="Instagram"><Instagram size={18} /></Link>
+          <a className="icon-button" href="https://www.instagram.com/sanjivani.dsc?stkn=bzVkaHh6Y3EwY291" aria-label="Instagram"><Instagram size={18} /></a>
           <Link className="icon-button" to="/contact" aria-label="Social media"><ArrowUpRight size={18} /></Link>
         </div>
         <p className="text-xs text-muted md:hidden">© 2024 Developer Student Club. All rights reserved.</p>

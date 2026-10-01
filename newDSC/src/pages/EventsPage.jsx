@@ -14,8 +14,8 @@ export default function EventsPage() {
         <div className="events-notice-icon"><CalendarDays size={23} /></div>
         <div>
           <p className="eyebrow">Coming up</p>
-          <h2 className="mt-2 text-2xl font-bold">New events are being planned</h2>
-          <p className="mt-2 max-w-2xl text-sm leading-6 text-muted">Check back here for the next club announcement, or get in touch with the team to hear about upcoming sessions.</p>
+          <h2 className="mt-2 text-2xl font-bold">Inauguration Ceremony on 10th October 2026</h2>
+          <p className="mt-2 max-w-2xl text-sm leading-6 text-muted">The journey begins! Join us on 10th October for the official inauguration of Developer Student Club — a community where ideas turn into projects, developers connect, and technology comes to life.</p>
         </div>
         <Link to="/contact" className="button-primary">Contact the team <ArrowUpRight size={16} /></Link>
       </section>

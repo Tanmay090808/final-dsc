@@ -30,7 +30,7 @@ export default function HomePage() {
             <p className="eyebrow">Our community</p>
             <h2 className="title-blue">About DSC</h2>
           </div>
-          <p className="max-w-3xl text-base leading-8 text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis reprehenderit corrupti tempore delectus est dicta tempora facere accusamus eaque nisi velit, aspernatur illo maiores! Voluptate unde ipsa iste qui officiis? Quo modi fugit amet veritatis sunt illum dicta ut iste! Fuga itaque harum fugiat perspiciatis adipisci quis officia ab delectus.</p>
+          <p className="max-w-3xl text-base leading-8 text-muted">Developer Students Club (DSC), at Sanjivani K.B.P Polytechnic is a student-led technology community that promotes learning, innovation, and collaboration through workshops, hackathons, projects, and industry interactions.</p>
         </div>
       </section>
 
