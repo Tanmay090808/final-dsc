@@ -1,25 +1,25 @@
+
 export const departments = [
-  { name: "Sarthak Adhav", role: "Management Head", image: "sarthakAdhav.jpg" },
-  { name: "Aditya Chavan", role: "Designer Head", image: "adityaChavan.jpg" },
-  { name: "Piyush Kolhe", role: "Documentation Head", image: "piyushkolhe.jpg" },
-  { name: "Vibhuti Autade", role: "Documentation Head", image: "VibhutiAutade.jpg" },
+  { name: "Jui Kulkarni", role: "Management Head", image: "juiKulkarni.jpeg" },
+  { name: "Shweta More", role: "Designer Head", image: "shwetaMore.jpeg" },
+  { name: "Yash Sanghvi", role: "Documentation Head", image: "yashSanghavi.jpeg" },
+  { name: "Shruti Singar", role: "Documentation Head", image: "shrutiSinghar.jpeg" },
 ];
 
 export const teamGroups = [
   {
     title: "Development Teams",
     groups: [
-      { title: "App Developers", people: [{ name: "Apurva Nile", image: "apurvaNile.jpg" }, { name: "Krishna Thakur", image: "krishnaThakur.jpg" }, { name: "Atharva Mhaske", image: "atharvaMhaske.jpg" }, { name: "Bhokare Sarthak" }] },
-      { title: "Web Developers", people: [{ name: "Stimeet Adhav", image: "Stimeet.jpg" }, { name: "Pranav Khilari", image: "pranavKhilari.jpg" }, { name: "Siddhi Bothe", image: "SiddhiBothe.jpg" }] },
+      { title: "App Developers", people: [{ name: "Tanmay Ghadge", image: "tanmay.jpg" }, { name: "Sarthak Kohokade", image: "sarthakK.jpeg" }, { name: "Tejal Nangare", image: "tejalNangare.jpeg" }]},
+      { title: "Web Developers", people: [{ name: "Snehal Tanpure", image: "snehalTanpure.jpeg" }, { name: "Dhanashree Shinde", image: "dhanashreeShinde.jpeg" }, { name: "Pranav Gorde", image: "pranavGorde.jpeg" }] },
     ],
   },
   {
     title: "Creative & Management",
     groups: [
-      { title: "Video Editors", people: [{ name: "Kunal Rayjade", image: "kunalRay.jpg" }, { name: "Advait Shroff" }] },
-      { title: "Management Team", people: [{ name: "Sarthak Kohokade", image: "SarthakKohakade.jpg" }, { name: "Jui Kulkarni", image: "juiK.jpg" }, { name: "Snehal Mahale", image: "snehalMahale.jpg" }] },
-      { title: "Technical Team", people: [{ name: "Chaudhari Shraddha Vikas", image: "shraddhaChaudhari.jpg" }, { name: "Shweta More" }, { name: "Tanmay Ghadge", image: "tanmay.jpg" }] },
-      { title: "Members", people: [{ name: "Sakshi Shinde", image: "sakshiS.jpg" }, { name: "Piyush Borse" }] },
+      { title: "Video Editors", people: [{ name: "Amruta Tathe", image: "amrutaTathe.png" }, { name: "Mansi Shingare", image: "mansiShinghare.png" }] },
+      
+      { title: "Members", people: [{ name: "Tejas Sonawane", image: "tejasSonawane.jpeg" }, { name: "Vaishnavi Aher",image: "vaishnaviAher.jpeg" }, { name: "Aditi Ghoderao",image: "aditiGhoderao.jpeg" }, { name: "Vasundhara Adhav",image: "vasundharaAdhav.jpeg" }, { name: "Tanishka Dhokane",image: "tanishkaDhokane.jpeg" },{ name: "Pranali Deshmukh",image: "pranaliDeshmukh.jpeg" },{ name: "Hindavi ",image: "hindavi.jpeg" },{ name: "Dhanashree ",image: "dhanashree.jpeg" }] },
     ],
   },
 ];

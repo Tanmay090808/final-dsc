@@ -15,7 +15,7 @@ export default function TeamPage() {
         <section className="fade-in">
           <SectionHeading>Founder</SectionHeading>
           <article className="advisor-panel glass-panel">
-            <Avatar name="Ganesh Jorvekar" image="" size="lg" />
+            <Avatar name="Ganesh Jorvekar" image="Jorvekarsir.png" size="lg" />
             <div className="text-center sm:text-left">
               <h3 className="text-2xl font-bold">Ganesh Jorverkar</h3>
               <p className="mt-1 text-lg font-semibold text-primary">Founder</p>
@@ -39,18 +39,17 @@ export default function TeamPage() {
         <section className="fade-in">
           <SectionHeading>Current Leader</SectionHeading>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            <PersonCard name="Hiten Shah" role="President" image="hitenShah.jpg" featured />
+            <PersonCard name="Disha Dond" role="President" image="DishaDond.jpeg" featured />
             <article className="person-card glass-panel">
               <div className="grid grid-cols-2 gap-4">
-                <div><Avatar name="Swaraj Kunde" size="sm" /><h3 className="mt-3 font-bold">Swaraj Kunde</h3></div>
-                <div><Avatar name="Disha Dond" image="DishaDond.jpg" size="sm" /><h3 className="mt-3 font-bold">Disha Dond</h3></div>
+                <div><Avatar name="Adwait Shroff" image="adwaitShroff.jpeg" size="sm" /><h3 className="mt-3 font-bold">Adwait Shroff</h3></div>
+                <div><Avatar name="Shraddha Chaudhari" image="shraddhaChaudhari.jpeg" size="sm" /><h3 className="mt-3 font-bold">Shraddha Chaudhari</h3></div>
               </div>
               <p className="mt-3 text-sm font-semibold text-primary">Vice-Presidents</p>
             </article>
             <article className="person-card glass-panel">
-              <div className="grid grid-cols-2 gap-4">
-                <div><Avatar name="Sanskruti Bhavsar" image="sanskrutiBhavsar.jpg" size="sm" /><h3 className="mt-3 font-bold">Sanskruti Bhavsar</h3></div>
-                <div><Avatar name="Sumit Kamble" image="sumeetKamble.jpg" size="sm" /><h3 className="mt-3 font-bold">Sumit Kamble</h3></div>
+              <div className="grid grid-cols-1 gap-4">
+                <div><Avatar name="Atharva Mhaske" image="atharvaMhaske.jpeg" size="sm" /><h3 className="mt-3 font-bold">Atharva Mhaske</h3></div>
               </div>
               <p className="mt-3 text-sm font-semibold text-primary">Technical Head</p>
             </article>
@@ -60,7 +59,7 @@ export default function TeamPage() {
         <section className="fade-in">
           <SectionHeading>Department Heads</SectionHeading>
           <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 lg:grid-cols-5">
-            <PersonCard name="Jimit Porwal" role="Accountant" />
+            <PersonCard name="Samiksha Kardel" role="Accountant" />
             {departments.map((member) => <PersonCard key={member.name} {...member} />)}
           </div>
         </section>
